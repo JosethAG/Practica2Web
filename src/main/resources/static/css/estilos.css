@@ -70,7 +70,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 .article-txt-img{
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 10px;
 }
 
 .art-text{
@@ -81,7 +81,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
 .art-img{
     flex: 1;
-    max-width: 40%;
+    max-width: 35%;
+    min-width: 10%;
     padding: 20px;
 }
 
@@ -92,8 +93,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding: 20px;
 }
 
+
 .footer{
-    position: flex;
     padding-top: 15px;
     bottom: 0;
     left: 0;
