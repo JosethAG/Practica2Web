@@ -22,7 +22,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: #1c1b54; 
+    background-color: #1c1b54;
 }
 
 .nav{
@@ -58,32 +58,47 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 .banner{
     display: flex;
     width: 100%;
-    height: 300px;
+    min-height: 200px;
+    max-height: 400px;
 }
 
-.secction-text-img{
+.secction-list{
+    align-content: center;
+    text-align: center;
+}
+
+.article-txt-img{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
-.secc-text{
+.art-text{
     flex: 1;
     padding: 20px;
     text-align: justify;
 }
 
-.secc-img{
+.art-img{
     flex: 1;
     max-width: 40%;
     padding: 20px;
 }
 
+.art-img-box{
+    flex: 1;
+    max-width: 25%;
+    min-width: 10%;
+    padding: 20px;
+}
+
 .footer{
-    position: fixed;
+    position: flex;
+    padding-top: 15px;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 8%;
+    height: 50px;
     background-color: #080727;
     text-align: center;
     color: white;
