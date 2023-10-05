@@ -93,6 +93,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding: 20px;
 }
 
+.formulario{
+    text-align: left;
+    padding: 40px;
+}
+
+.titulos-2{
+    text-align: center;
+}
 
 .footer{
     padding-top: 15px;

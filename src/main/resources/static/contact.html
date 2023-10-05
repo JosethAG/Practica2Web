@@ -5,10 +5,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Contactenos DMAPPS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header class="header">
@@ -28,7 +28,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <img class="banner" src="img/Banner1.png" alt="Banner APPS"/>
         </article>
     <body>
-        <div>TODO write content</div>
+        <section class="formulario">
+            <h2 class="titulos-2">Contáctanos</h2>
+            <form action="cliente/registro">
+                <table border="0" cellspacing="5" cellpadding="5">                    
+                    <tbody>                        
+                        <tr>
+                            <td>Correo de contacto</td>
+                            <td><input type="email" name="usuario" placeholder="example@example.com" size="100"/></td>
+                        </tr>
+                        <tr>
+                            <td>Nombre y Apellido</td>
+                            <td><input type="text" name="nombre" placeholder="Agregue su nombre" size="50"/></td>
+                        </tr>
+                        <tr>
+                            <td>Teléfono</td>
+                            <td><input type="tel" name="telefono" size="8"/></td>
+                        </tr>
+                        <tr>
+                            <td>Nota</td>
+                            <td><textarea name="dirección" rows="4" cols="40"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="reset" name="reset" value="Limpiar">
+                                <input type="submit" name="submit" value="Enviar"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
         <hr>
         <footer class="footer">
             <p>Derechos reservados por TechShop &COPY; 2023</p>
