@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 3, 2023, 9:55:58 PM
+    Author     : araya
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: Helvetica;
+    padding: 80px 20px 0;
+    background-color: #080727;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #1c1b54; 
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-link {
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 60px;
+    width: max-content;
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.secction-text-img{
+    display: flex;
+    align-items: center;
+}
+
+.secc-text{
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.secc-img{
+    flex: 1;
+    max-width: 40%;
+    padding: 20px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #080727;
+    text-align: center;
+    color: white;
+}
